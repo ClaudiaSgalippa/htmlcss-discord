@@ -23,7 +23,7 @@ a {
     background-color: white;
 }
 
-#button-download {
+#button-download-up {
     padding: 15px 20px;
     border-radius: 25px;
     font-size: 18px;
@@ -31,6 +31,16 @@ a {
     border: 1px solid white;
     background-color: white;
     margin-right: 20px;
+}
+
+#button-download-down {
+    padding: 15px 20px;
+    border-radius: 25px;
+    font-size: 18px;
+    font-weight: 500;
+    color:white;
+    border: 1px solid #8EA1E2;
+    background-color: #8EA1E2;
 }
 
 #button-browser {
@@ -238,9 +248,7 @@ a {
 }
 
 .streaming {
-    border-style: dashed;
     width: 870px;
-    background-color: #218B21;
 }
 
 .streaming-info {
@@ -263,15 +271,19 @@ a {
 }
 
 .streaming-nav {
-    width: 531;
-    height: 49;
-    align-items: center;
+    height: 100%;
+    width: 100%;
+    padding-top: 15px;
+    text-align: center;
 }
 
-h2 {
+#new-adventure {
+    height: 50px;
     text-align: center;
     color: #23272A;
     background-image: url(img/stars.svg);
+    background-position: center;
+    margin-bottom: 20px;
 }
 
 
