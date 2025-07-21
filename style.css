@@ -52,6 +52,16 @@ a {
     background-color: #23272A;
 }
 
+#button-registration {
+    padding: 8px 13px;
+    border-radius: 25px;
+    font-size: 14px;
+    font-weight: 500;
+    color: white;
+    border: 1px solid #8EA1E2;
+    background-color: #8EA1E2;
+}
+
 
 /*Home*/
 #main-nav {
@@ -371,17 +381,15 @@ a {
     display: flex;
     height: 65px;
     width: 66%;
-    background-color: #7FFFD4;
 }
 
 #empty {
     display: flex;
     height: 65px;
     width: 805%;
-    background-color: #7FFFD4;
     justify-content: space-between;
     align-items: center;
-    
+    padding-bottom: 50px;
 }
 
 .logo-down {
