@@ -309,54 +309,69 @@ a {
     flex-wrap: wrap;
 }
 
+#talking {
+    width: 65%;
+    color:#8EA1E2;
+}
+
 #bottom-info {
     display: flex;
     justify-content: center;
     align-items: flex-start;
-    padding-top: 20px;
+    padding-top: 70px;
     width: 66%;
 }
 
+
 #socials {
-    border-style: dashed;
-    height: 90%;
-    width: 30%;
-    background-color: #F08180;
+    height: 50%;
+    width: 29%;
+    font-size: large;
+    font-weight: 600;
+    color:white;
 }
+
+#language {
+    margin-top: 25px;
+    margin-bottom: 20px;
+
+    color: white;
+    font-size: small;
+}
+
+#ita {
+    height: 18px;
+}
+
 
 #info-menu {
     display: flex;
-    border-style: dashed;
     height: 90%;
-    width: 70%;
-    background-color: #20B3AA;
+    width: 79%;
 }
 
 .product {
     display: flex;
-    border-style: dashed;
-    border-color: white;
+    color: #8EA1E2;
     width: 25%;
 }
 
 .company {
     display: flex;
-    border-style: dashed;
-    border-color: white;
+    color: #8EA1E2;
     width: 25%;
+    font
 }
 
 .resources {
     display: flex;
-    border-style: dashed;
-    border-color: white;
+    color: #8EA1E2;
     width: 25%;
 }
 
 .norms {
     display: flex;
-    border-style: dashed;
-    border-color: white;
+    color: #8EA1E2;
     width: 25%;
 }
 
@@ -399,7 +414,6 @@ a {
     width: 65px;
     justify-content: center;
     align-items: center;
-    background-color: #FFB6BF;
 }
 
 .registration {
@@ -409,5 +423,4 @@ a {
     width: 80px;
     justify-content: center;
     align-items: center;
-    background-color: #FFB6BF;
 }
